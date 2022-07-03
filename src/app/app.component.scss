@@ -53,3 +53,13 @@
     transform: rotate(360deg);
   }
 }
+
+@media(max-width:992px){
+    .content{
+        overflow: hidden;
+
+        section{
+            transform: scale(0.8);
+        }
+    }
+}
